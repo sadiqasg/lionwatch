@@ -38,6 +38,11 @@ header {
   margin-top: 2em;
 }
 
+#header-section button:hover {
+  color: var(--sec-clr1);
+  opacity: 0.7;
+}
+
 .shield-icon {
   margin-top: -2em;
   width: 2000px;
@@ -175,7 +180,7 @@ hr {
 }
 
 #why-us img {
-  height: 80%;
+  height: 300px;
 }
 
 #feedback {
