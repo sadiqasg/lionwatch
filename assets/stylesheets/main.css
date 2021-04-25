@@ -66,11 +66,13 @@ textarea, input[type="text"], input[type="number"], input[type="email"] {
 
 .h-text, .figure-caption {
   color: var(--pry-clr);
+}
+.h-text {
   font-size: 28px;
 }
 
 .figure-caption {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .h-text-light {
@@ -195,6 +197,20 @@ div#top {
   height: 230px;
   padding: 2em;
   margin-left: 25%;
+}
+.bg {
+  background-color: var(--pry-clr);
+  width: 25%;
+  margin-left: 33%;
+}
+
+.bg-back-top {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.bg-back-bottom {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .quote-icon-l, .quote-icon-r {
