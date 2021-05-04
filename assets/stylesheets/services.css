@@ -1,0 +1,25 @@
+html, body {
+  background-color: #fff;
+}
+
+h1, h3 {
+  font-weight: bold;
+}
+
+.card {
+  padding: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  background-color: var(--pry-clr);
+  color: var(--sec-clr1);
+  transition: 0.3s ease-in;
+}
+
+.card:hover {
+  background-color: var(--sec-clr1);
+  color: var(--pry-clr);
+}
+
+footer {
+  margin-top: 200px;
+}

@@ -25,6 +25,11 @@ html, body {
   color: var(--pry-clr);
 }
 
+.pry-bg {
+  background-color: var(--pry-clr);
+  color: var(--sec-clr1);
+}
+
 .alt-text {
   color: var(--sec-clr2);
 }
