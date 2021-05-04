@@ -1,0 +1,68 @@
+header, nav {
+  background: transparent;
+}
+
+nav {
+  box-shadow: none;
+}
+
+body {
+  background: linear-gradient(to right, var(--pry-clr) 60%, white 40%);
+}
+
+h5 {
+  color: #fff;
+  margin-top: 30px;
+}
+p {
+  font-size: 18px;
+  color: var(--sec-clr2);
+}
+
+#contact-row {
+  margin-top: 80px;
+  min-height: 100vh;
+}
+
+.card {
+  width: 40vw;
+  border-radius: 20px;
+  padding: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+form {
+  margin-top: 50px;
+}
+
+.btn-link:hover {
+  background: var(--sec-clr1);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 767px) {
+  body {
+    background: linear-gradient(to bottom, var(--pry-clr) 60%, white 40%);
+  }
+  .card {
+    margin-top: 20px;
+    width: 70vw;
+    padding: 30px;
+  }
+  footer {
+    margin-top: 10px;
+    position: initial;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 90vw;
+    padding: 30px;
+  }
+}

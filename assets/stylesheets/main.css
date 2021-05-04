@@ -39,6 +39,11 @@ nav {
   padding: 10px 0;
 }
 
+.active {
+  width: fit-content;
+  border-bottom: 2px solid var(--sec-clr1);
+}
+
 .navbar-brand, .nav-link {
   color: var(--sec-clr1) !important;
 }
