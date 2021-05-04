@@ -39,7 +39,7 @@ nav {
   padding: 10px 0;
 }
 
-.active {
+nav .active {
   width: fit-content;
   border-bottom: 2px solid var(--sec-clr1);
 }
