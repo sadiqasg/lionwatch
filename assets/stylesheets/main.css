@@ -35,7 +35,7 @@ html, body {
 }
 
 nav {
-  background-color: var(--pry-clr);
+  /* background-color: var(--pry-clr); */
   padding: 10px 0;
 }
 
@@ -46,6 +46,10 @@ nav .active {
 
 .navbar-brand, .nav-link {
   color: var(--sec-clr1) !important;
+}
+
+.brand-icon {
+  height: 70px;
 }
 
 #header {
@@ -173,6 +177,26 @@ nav .active {
 
 .client {
   margin: 0 20px;
+}
+
+#gallery {
+  padding: 50px 0;
+  background-color: var(--sec-clr3);
+}
+#gallery img {
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+#gallery img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#images-section {
+  display: flex;
+  overflow-y: scroll;
 }
 
 #location {
