@@ -39,6 +39,10 @@ nav {
   padding: 10px 0;
 }
 
+nav .nav-item {
+  margin: 0 10px;
+}
+
 nav .active {
   width: fit-content;
   border-bottom: 2px solid var(--sec-clr1);
@@ -66,7 +70,10 @@ nav .active {
   font-size: 18px;
 }
 
-#services .card {
+.services .col {
+  margin-bottom: 30px;
+}
+.services .card {
   max-width: 90vw;
   width: 500px;
   margin: 0 auto;
@@ -77,8 +84,21 @@ nav .active {
   padding: 30px;
 }
 
-#services .card {
+.services .card {
   margin-top: 10px;
+}
+
+.top-service {
+  margin-bottom: 30px;
+}
+.top-service .card {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 30px;
+  border-radius: 20px;
+  background: var(--sec-clr1);
+  color: var(--pry-clr);
 }
 
 #why-us {
@@ -180,7 +200,7 @@ nav .active {
 }
 
 #gallery {
-  padding: 50px 0;
+  padding: 50px 0 60px;
   background-color: var(--sec-clr3);
 }
 #gallery img {
@@ -215,7 +235,7 @@ footer {
 
 
 @media (max-width: 1040px) {
-  #services .card {
+  .services .card {
     width: 30vw;
   }
   #feedback .slide * {
@@ -229,7 +249,7 @@ footer {
 }
 
 @media (max-width: 760px) {
-  #services .card {
+  .services .card {
     width: initial;
   }
 }
