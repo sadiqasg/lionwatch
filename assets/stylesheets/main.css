@@ -13,7 +13,7 @@ html, body {
 }
 
 .pry-text {
-  color: var(--pry-clr1);
+  color: var(--pry-clr);
 }
 
 .sec-text {
@@ -35,7 +35,6 @@ html, body {
 }
 
 nav {
-  /* background-color: var(--pry-clr); */
   padding: 10px 0;
 }
 
@@ -70,9 +69,35 @@ nav .active {
   font-size: 18px;
 }
 
+#servicesSection p {
+  text-align: justify;
+  margin-top: 30px;
+  width: 85%;
+}
+
+#servicesSection .row {
+  padding: 50px;
+}
+
+#servicesSection .card {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.service-card img {
+  width: 420px;
+  height: 250px;
+}
+
+.service-image {
+  width: 420px;
+  height: 220px;
+}
+
 .services .col {
   margin-bottom: 30px;
 }
+
 .services .card {
   max-width: 90vw;
   width: 500px;
@@ -91,6 +116,7 @@ nav .active {
 .top-service {
   margin-bottom: 30px;
 }
+
 .top-service .card {
   width: 90%;
   margin: 0 auto;
@@ -203,6 +229,7 @@ nav .active {
   padding: 50px 0 60px;
   background-color: var(--sec-clr3);
 }
+
 #gallery img {
   width: 300px;
   height: 250px;
@@ -233,7 +260,6 @@ footer {
   padding-top: 50px;
 }
 
-
 @media (max-width: 1040px) {
   .services .card {
     width: 30vw;
@@ -252,4 +278,13 @@ footer {
   .services .card {
     width: initial;
   }
+
+  #servicesSection p {
+    width: initial;
+  }
+
+  #servicesSection h5 {
+    margin-top: 30px;
+  }
+    
 }
