@@ -84,14 +84,19 @@ nav .active {
   box-shadow: none;
 }
 
-.service-card img {
-  width: 420px;
-  height: 250px;
+.imgContainer {
+  width: 500px !important;
+  height: 250px !important;
 }
 
 .service-image {
-  width: 420px;
-  height: 220px;
+  width: 100%;
+  height: 100%;
+}
+
+.service-card img {
+  width: 500px;
+  height: 250px;
 }
 
 .services .col {
@@ -272,6 +277,14 @@ footer {
   #feedback .client {
     margin-top: 10px;
   }
+  .imgContainer {
+    width: initial !important;
+  }
+
+  .service-card img {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 760px) {
@@ -286,5 +299,23 @@ footer {
   #servicesSection h5 {
     margin-top: 30px;
   }
-    
+
+  .imgContainer {
+    width: 90;
+  }   
+}
+
+@media (max-width: 500px) {
+  .service-image {
+    height: 80%;
+  }
+  .service-card img {
+    height: 70%;
+  }
+  #servicesSection h5 {
+    margin-top: 15px;
+  }
+  #servicesSection p {
+    text-align: left;
+  }
 }
